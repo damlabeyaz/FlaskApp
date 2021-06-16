@@ -8,6 +8,6 @@ test:
 
 
 lint:
-	pylint --disable=R,C flaskapp.py
+	pylint --disable=R,C flask_app/*.py
 
 all: install lint test
